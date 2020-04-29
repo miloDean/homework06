@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+
+<body>
+<header>
+  <h1>Weather Dashboard</h1>
+</header>
+<div class="container-fluid">
+  <!-- This is the column for the input and history section. -->
+  <div class="row">
+    <div class="col-lg-3" >
+      <h3>Search for a City:</h3>
+      <input name="City" id="cityInput"><span><button id="button">Search</button></span></input>
+      <div id=searchHistory></div>
+    </div>
+    <!-- This creates the column for the weather information -->
+    <div class="col-lg-9" >
+      <div class="container-fluid mb-3" id=currentWeather> </div>
+      <div class="row ml-3" id=forecastInput>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="./Assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+header{
+    text-align: center;
+    background-color: #0085CA;
+    color: black;
+    height: 75px;
+    margin-bottom: 20px;
+}
+
+#cityInput{
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+.history {
+    width: 100%;
+    background-color:#0085CA;
+	border:1px solid #0b0e07;
+    color: black;
+    font-family:Arial;
+}
+
+#button {
+	background-color:#0085CA;
+	border:1px solid #0b0e07;
+	color: black;
+	font-family:Arial;
+    width: 25%;
+}
+
+button:hover {
+	background-color:#BFC0BF;
+}
+
+.forecast{
+    margin-bottom: 10px;
+    background-color: olive;
+    color: white;
+}
+
+#currentWeather{
+    border: black;
+}
+
+.card-body{
+background-color: #0085CA;
+color: black;
+
+}
+
+
+.col-lg-2.card{
+    background-color: #0085CA;
+    margin-right: 10px;
+
+}
